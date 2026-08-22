@@ -1,4 +1,4 @@
-#Overview 
+#Overview: 
 Raw rental listings data often contains formatting inconsistencies,
 non-numeric price symbols, missing values, and extreme price outliers that cause schema mismatches or distort downstream reporting.
 
