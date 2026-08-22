@@ -26,7 +26,7 @@ availability_365 int
 #Loading Data
 Set Global local_infile =1;
 
-LOAD DATA LOCAL INFILE 'C:/ProgramData/MySQL Projects/AB_NYC_2019.csv/AB_NYC_2019.csv'
+LOAD DATA LOCAL INFILE '//path/AB_NYC_2019.csv/AB_NYC_2019.csv' /*Copy path of the file location*/
 INTO TABLE Raw_airbnb_listings
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"' 
