@@ -3,7 +3,7 @@ Create Database if not exists Airbnb_Analytics;
 Use Airbnb_Analytics;
 
 /*Staging Table*/  
-Drop Table if exists Raw_airbnb_listings;
+
 Create Table if not exists Raw_airbnb_listings( 
 id int,
 name text,
